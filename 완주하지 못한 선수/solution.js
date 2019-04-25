@@ -21,8 +21,6 @@ function solution(participant, completion) {
     var sortedParticipant = participant.sort();
     var sortedCompletion = completion.sort();
     var answer;
-    console.log(sortedParticipant)
-    console.log(sortedCompletion)
     for(var i=0; i<sortedParticipant.length;i++){
         if(sortedParticipant[i] != sortedCompletion[i]){
             answer = sortedParticipant[i];

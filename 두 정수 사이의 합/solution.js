@@ -25,4 +25,4 @@ function solution(a, b) {
     return answer;
 }
 
-console.log(solution(5,3))
+console.log(solution(3,3))

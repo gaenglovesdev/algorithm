@@ -10,6 +10,7 @@ function solution(n) {
     var answer = 0;
     for(var i=2; i<=n; i++) {
         var isPrime = true;
+        console.log(i)
         for(var j=2; j*j<=i; j++) {
             if(i % j == 0) {
                 isPrime = !isPrime;
